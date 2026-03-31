@@ -44,7 +44,7 @@ nav a:hover {
 
 /* Hero */
 .hero {
-    background: url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6') center/cover no-repeat;
+    background: url('images/project1.jpg') center/cover no-repeat;
     height: 80vh;
     color: white;
     display: flex;
