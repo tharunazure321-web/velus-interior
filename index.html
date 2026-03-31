@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Tharun Interiors</title>
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
@@ -23,12 +31,14 @@
     </nav>
 </header>
 
+<!-- Hero Section -->
 <section class="hero">
     <h2>4+ Years of Excellence in Interior Design</h2>
     <p>100+ Happy Clients | Trusted Interior Experts</p>
+    <a href="#contact" class="cta">Get Free Consultation</a>
 </section>
 
-<!-- WHY CHOOSE US -->
+<!-- Why Choose Us -->
 <section>
     <h2>Why Choose Us</h2>
     <ul>
@@ -39,60 +49,82 @@
     </ul>
 </section>
 
+<!-- About Section -->
 <section id="about">
     <h2>About Us</h2>
-    <p>We are professional interior designers with 4+ years of experience delivering modern and luxury interiors.</p>
+    <p>We are professional interior designers with 4+ years of experience delivering modern and luxury interiors. Our team focuses on creativity, functionality, and client satisfaction.</p>
 </section>
 
+<!-- Services Section -->
 <section id="services">
     <h2>Our Services</h2>
-    <ul>
-        <li>Home Interior Design</li>
-        <li>Modular Kitchen</li>
-        <li>Office Interiors</li>
-        <li>Furniture Design</li>
-    </ul>
-</section>
-
-<section id="projects">
-    <h2>Our Projects</h2>
-    <div class="gallery">
-        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6">
-        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
-        <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d">
+    <div class="service-grid">
+        <div class="service-card">
+            <h3>Home Interior Design</h3>
+            <p>Transform your home into a dream space with personalized designs.</p>
+        </div>
+        <div class="service-card">
+            <h3>Modular Kitchen</h3>
+            <p>Modern, functional, and stylish kitchen solutions for every home.</p>
+        </div>
+        <div class="service-card">
+            <h3>Office Interiors</h3>
+            <p>Professional designs that boost productivity and aesthetics.</p>
+        </div>
+        <div class="service-card">
+            <h3>Furniture Design</h3>
+            <p>Custom-made furniture to perfectly fit your space and style.</p>
+        </div>
     </div>
 </section>
 
-<section id="reviews">
-    <h2>Client Reviews</h2>
-    <p>⭐⭐⭐⭐⭐ Excellent work! – Ramesh</p>
-    <p>⭐⭐⭐⭐⭐ Very professional team – Suresh</p>
-    <p>⭐⭐⭐⭐⭐ Highly recommended – Priya</p>
+<!-- Projects Section -->
+<section id="projects">
+    <h2>Our Projects</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6" alt="Project 1">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Project 2">
+        <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d" alt="Project 3">
+    </div>
 </section>
 
-<!-- CONTACT FORM -->
+<!-- Reviews Section -->
+<section id="reviews">
+    <h2>Client Reviews</h2>
+    <p class="review">⭐⭐⭐⭐⭐ Excellent work! – Ramesh</p>
+    <p class="review">⭐⭐⭐⭐⭐ Very professional team – Suresh</p>
+    <p class="review">⭐⭐⭐⭐⭐ Highly recommended – Priya</p>
+</section>
+
+<!-- Contact Section -->
 <section id="contact">
     <h2>Get Free Consultation</h2>
-
     <form action="https://formspree.io/f/yourid" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required><br><br>
-        <input type="email" name="email" placeholder="Your Email" required><br><br>
-        <input type="text" name="phone" placeholder="Your Phone" required><br><br>
-        <textarea name="message" placeholder="Your Requirement"></textarea><br><br>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="phone" placeholder="Your Phone" required>
+        <textarea name="message" placeholder="Your Requirement"></textarea>
         <button type="submit">Submit</button>
     </form>
-
     <br>
-
     <iframe 
-    src="https://www.google.com/maps?q=andhra%20pradesh&output=embed"
-    width="100%" height="300">
+        src="https://www.google.com/maps?q=andhra%20pradesh&output=embed"
+        width="100%" height="300" style="border:0;">
     </iframe>
 </section>
 
+<!-- WhatsApp Floating Button -->
 <a href="https://wa.me/919100288330?text=Hi%20I%20need%20interior%20design" class="whatsapp">
-Chat on WhatsApp
+    <i class="fab fa-whatsapp"></i> Chat on WhatsApp
 </a>
+
+<!-- Footer -->
+<footer>
+    &copy; 2026 Tharun Interiors | Follow us:
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+</footer>
 
 </body>
 </html>
